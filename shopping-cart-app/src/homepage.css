@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+}
+
+.headermain {
+    background-color: rgb(235, 145, 11);
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 1;
+}
+
+.main {
+    /* background-color: aqua; */
+    width: 1000px;
+    height: 70px;
+    margin-left: 250px;
+}
+
+.search {
+    margin-top: -40px;
+    margin-left: 300px;
+
+}
+
+.icon {
+    /* background-color: rgb(185, 162, 162); */
+    width: 350px;
+    height: 70px;
+    margin-left: 700px;
+    margin-top: -59px;
+    display: flex;
+}
+
+.user {
+    margin: 5px;
+    margin-top: 25px;
+}
+
+.fovaris {
+    margin: 5px;
+    margin-top: 25px;
+}
+
+.basket {
+    margin: 5px;
+    margin-top: 25px;
+}
+
+.slider {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+
+
+.shopping {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.shopping div {
+    flex-grow: 1;
+    margin: 2px;
+    overflow: hidden;
+
+
+}
+
+.shopping img {
+
+    transition: transform .3s ease-out;
+
+
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+
+
+.ebot {
+    float: left;
+}
+
+.kkaban {
+    float: left;
+
+}
+
+.ekaban {
+    float: left;
+}
+
+.kbot {
+    float: left;
+}
+
+.like {
+
+    background-color: rgb(233, 36, 36);
+    width: 100px;
+    height: 250px;
+    padding: 0 1px 100px 50px;
+}
+
+.ikon {
+    display: flex;
+    padding-left: 40px;
+}
+
+.yeto {
+    background-color: rgb(235, 145, 11);  
+    margin-right: 90px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    padding-right: 15px;
+
+}
+
+
+
+
+
+.top {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(235, 145, 11);
+}
+
+.icons {
+    /* background-color: aquamarine;  */
+    width: 400px;
+    height: 85px;
+    margin-left: 300px;
+    margin-top: -60px;
+
+}
+
+.iconss {
+    width: 350px;
+    height: 70px;
+    display: flex;
+    /* background-color: rgb(0, 253, 169); */
+    margin-top: 10px;
+}
+
+span {
+    margin: 5px;
+}
+
+.information {
+    background-color: rgba(235, 145, 11, 0.644);
+    width: 250px;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.fee {
+    background-color: rgb(235, 145, 11);
+    text-align: center;
+
+
+}
+
+.instagram {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    font-weight: bold;
+
+
+}
+
+.linkedin {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    margin-left: 25px;
+    font-weight: bold;
+
+}
+
+.twitter {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+.thanks {
+    margin-left: 900px;
+    margin-top: -50px;
+    font-weight: bold;
+}
