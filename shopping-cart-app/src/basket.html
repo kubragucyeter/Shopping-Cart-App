@@ -40,11 +40,11 @@
         </div>
 
 
-        <div class="screen">
-            <div class="half">
-                <div class="delete">
-                    <button class="empty"><span>Sepeti Boşalt</span> <i class="fa-solid fa-trash"></i> </button>
-                </div>
+        <div id="halfDiv">
+            <div id="half">
+
+                <button class="empty"><span>Sepeti Boşalt</span> <i class="fa-solid fa-trash"></i> </button>
+
 
 
 
@@ -55,23 +55,78 @@
                     </div>
                     <div class="dat-in">
                         <div class="detail">
-
+                        </div>
+                        <div class="numbers">
+                            <div class="num1">
+                                <p>-</p>
+                            </div>
+                            <div class="numinfo">
+                                <p>1</p>
+                            </div>
+                            <div class="num2">
+                                <p>+</p>
+                            </div>
+                        </div>
+                        <div class="clopri">
+                            <p>500$</p>
+                        </div>
+                        <div class="delete">
+                            <button class="del"> <i class="fa-solid fa-trash"></i> </button>
                         </div>
                     </div>
 
 
-                </div>
-            </div>
 
+                </div>
+
+
+            </div>
+            <div class="water"></div>
+            <div class="amount">
+
+                <div class="total">
+
+                    <span>Ürün Toplamı<input id="label" type="label" placeholder="Toplam"> </span>
+
+
+                    <div class="shicost">
+                        <span>Kargo Bedeli <input id="kargo" type="label" placeholder="Kargo Bedeli "> </span>
+
+                    </div>
+
+                    <div class="disco">
+                        <span>İndirim Kuponu<input id="kupon" type="label" placeholder="Kupon"> </span>
+
+                    </div>
+
+                    <div class="proto">
+                        <span>Ara Toplam <input id="ara" type="label" placeholder="Ara Toplam"> </span>
+                        <hr>
+                    </div>
+
+                    <div class="fee">
+                        <span>Fiyat<input id="wage" type="label" placeholder="Fiyat"> </span>
+                    </div>
+
+                    <div class="card">
+                        <button class="chocard"> Kart Seç </button>
+                        <button class="addcard">Kart Ekle </button>
+                    </div>
+
+                    <button class="cancard"> Sepeti Onayla</button>
+
+
+
+
+                </div>
+
+
+            </div>
         </div>
 
+
+
     </div>
-    <div class="amount"></div>
-
-    </div>
-    <div class="">
-
-
     </div>
     </div>
 
@@ -109,7 +164,7 @@
     </div>
 
 
-    <script src="./store/home.ts"></script>
+    <script src="./store/basket.ts"></script>
 </body>
 
 </html>

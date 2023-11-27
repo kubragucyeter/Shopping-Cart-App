@@ -1,5 +1,7 @@
-const half = document.querySelector(".half")
-const headerMain = document.getElementById("headerMain")
-const headHeight= headerMain?.offsetHeight
+const half = document.querySelector("#halfDiv")
+const headerMain = document.getElementById("headMain")
+const amount = document.querySelector(".amount")
+const headHeight = headerMain?.offsetHeight
 
-half?.setAttribute("style", "padding-top:" + headHeight?.toString() + "px")
+half?.setAttribute("style", "padding-top:" + headHeight + "px")
+amount?.setAttribute("style", "padding-top:" + headHeight + "px")
